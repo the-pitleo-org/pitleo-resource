@@ -4,6 +4,11 @@ import random
 import platform
 import b
 from time import sleep
+import datetime
+
+now = datetime.datetime.now()
+
+print(now)
 
 sleep(1)
 try:
@@ -11,7 +16,7 @@ try:
     print("git add .")
     sleep(1)
     b.cls
-    os.system(f'git commit -m "{random.random()}"')
+    os.system(f'git commit -m "{now}"')
     print("Created a commit")
     sleep(1)
     b.cls
