@@ -1,4 +1,4 @@
-
+'''auto pusher by pitleo'''
 import os
 import random
 import platform
