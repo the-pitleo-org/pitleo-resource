@@ -1,4 +1,4 @@
-print("Publishing!")
+
 import os
 import random
 try:
