@@ -5,6 +5,7 @@ import platform
 import b
 from time import sleep
 import datetime
+import webbrowser
 
 now = datetime.datetime.now()
 
@@ -23,6 +24,7 @@ try:
     os.system("git push")
     print("Pushed")
     sleep(1)
+    webbrowser.open_new("https://github.com/the-pitleo-org/pitleo-resource")
 except:
     sleep(1)
     print("An error occured.")
